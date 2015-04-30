@@ -13,6 +13,8 @@
 		427347631AF1979A00F463D0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 427347621AF1979A00F463D0 /* Images.xcassets */; };
 		427347661AF1979A00F463D0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 427347641AF1979A00F463D0 /* LaunchScreen.xib */; };
 		427347721AF1979A00F463D0 /* OrbitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 427347711AF1979A00F463D0 /* OrbitTests.swift */; };
+		4273477E1AF1980E00F463D0 /* earth.png in Resources */ = {isa = PBXBuildFile; fileRef = 4273477C1AF1980E00F463D0 /* earth.png */; };
+		4273477F1AF1980E00F463D0 /* moon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4273477D1AF1980E00F463D0 /* moon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		4273476B1AF1979A00F463D0 /* OrbitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OrbitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		427347701AF1979A00F463D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		427347711AF1979A00F463D0 /* OrbitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrbitTests.swift; sourceTree = "<group>"; };
+		4273477C1AF1980E00F463D0 /* earth.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = earth.png; sourceTree = "<group>"; };
+		4273477D1AF1980E00F463D0 /* moon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = moon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +81,7 @@
 		427347581AF1979A00F463D0 /* Orbit */ = {
 			isa = PBXGroup;
 			children = (
+				4273477B1AF197FF00F463D0 /* Assets */,
 				4273475B1AF1979A00F463D0 /* AppDelegate.swift */,
 				4273475D1AF1979A00F463D0 /* ViewController.swift */,
 				4273475F1AF1979A00F463D0 /* Main.storyboard */,
@@ -110,6 +115,15 @@
 				427347701AF1979A00F463D0 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4273477B1AF197FF00F463D0 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				4273477C1AF1980E00F463D0 /* earth.png */,
+				4273477D1AF1980E00F463D0 /* moon.png */,
+			);
+			name = Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -192,6 +206,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4273477E1AF1980E00F463D0 /* earth.png in Resources */,
+				4273477F1AF1980E00F463D0 /* moon.png in Resources */,
 				427347611AF1979A00F463D0 /* Main.storyboard in Resources */,
 				427347661AF1979A00F463D0 /* LaunchScreen.xib in Resources */,
 				427347631AF1979A00F463D0 /* Images.xcassets in Resources */,
